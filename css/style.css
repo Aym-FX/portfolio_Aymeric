@@ -19,8 +19,15 @@
   text-align: center;
   position: relative;
 }
-
-
+.deco_text {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.text_contact {
+  font-size: 18px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+}
 .navigation nav {
   position: relative;
   padding: 0;
@@ -59,7 +66,6 @@
 }
 .sf-menu > li + li:after {
   content: '';
-  background: url(../images/menu_sep.png) 0 0 no-repeat;
   height: 5px;
   width: 5px;
   position: absolute;
@@ -240,7 +246,7 @@
 }
 @media only screen and (min-width: 979px) {
   .isStuck {
-    background-color: #000;
+    background-color: #323045;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
   }
 }
@@ -531,7 +537,6 @@ header .header_top {
 #content {
   background-color: #ffffff;
   padding-bottom: 93px;
-  background: #fffced url(../images/content_img.jpg) center 0 no-repeat fixed;
 }
 /****Non suppage set****/
 .page1 h2 {
@@ -870,7 +875,7 @@ a.color1:hover {
   margin-left: 640px;
   overflow: hidden;
   border: none;
-  border: 1px solid #ffffff;
+  border: 1px solid #323045;
   color: #ffffff;
   width: 72px;
   height: 66px;
@@ -884,7 +889,8 @@ a.color1:hover {
 }
 #toTop:hover {
   outline: none;
-  background-color: #000000;
+  border-color: #6da7e5;
+  background-color: #6da7e5;
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {

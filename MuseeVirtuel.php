@@ -12,7 +12,7 @@
         <h3>Description</h3>
 
         <p> Le musée interactif en réalité virtuelle a été réalisé sur Unreal Engine 5. Il comporte plusieurs œuvres d'artistes différents que 
-          nous avons recréées en 3D pour la grande majorité, ainsi qu'un scénario où le but est de partir à la recherche d'un croissant pour 
+          nous avons recréé en 3D pour la grande majorité, ainsi qu'un scénario où le but est de partir à la recherche d'un croissant pour 
           chaque œuvre afin de les remettre à leur place sur des piliers. Nous avons appris à utiliser les blueprints pour développer certaines 
           fonctionnalités, comme la radio ou encore les nombreux boutons servant à présenter les œuvres grâce à des fichiers audio. De plus, 
           nous avons appris le texturing et l'UV mapping afin d'appliquer différentes textures et de corriger d'éventuels défauts. Nous avons 

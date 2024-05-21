@@ -13,7 +13,7 @@
 
         <p>The Lost Letters est mon premier jeu de plateforme solo en 2D développé sur Unity.
         J'ai réalisé ce jeu pour un projet en première année de BUT Informatique. Cela m'a permis de découvrir le développement 
-        de jeu vidéo et de m'améliorer en programmation. Car en effet j'ai du découvrir le game design, la création de menus, la gestion
+        de jeu vidéo et de m'améliorer en programmation. Car j'ai dû découvrir le game design, la création de menus, la gestion
         des sons et musiques ainsi que l'élaboration de l'IA (Rien de bien élaborer je vous rassure).</p>
         </p>
         

@@ -18,7 +18,7 @@
 
         <img src="images/A2T.png" alt="Image d'un extrait de l'atelier 2Tonnes" class="img_inner fright">
         <p>À la fin de ma première année d'étude au BUT Informatique , nous avons participé à une activité en lien avec l'écologie. 
-          <br>Nous avons d'abord répondu à un questionnaires avec des questions sur nos habitudes alimentaires, sur nos équipements informatique 
+          <br>Nous avons d'abord répondu à un questionnaire avec des questions sur nos habitudes alimentaires, sur nos équipements informatiques 
               ainsi que notre consommation ménagère.
           <br>Ensuite nous avons fait un jeu de rôle où nous devions nous mettre d'accord sur des actions à mettre en place pour réduire notre 
               impact écologique.
@@ -32,11 +32,11 @@
         <p>En deuxième année pour mon projet tutoré il m'a été demandé de réaliser un jeu vidéo du genre qu'on voulait et avec
           les technologies qu'on voulait. Il y avait en bonus le fait que ce soit un jeu accessible pour les personnes en situation 
           de handicap et/ou que le jeu soit éco-conçu. 
-          <br>Pour ce faire, mon équipe et moi avons choisis de réaliser un jeu de braquage en réalité virtuel.
+          <br>Pour ce faire, mon équipe et moi avons choisi de réaliser un jeu de braquage en réalité virtuel.
           Nous avons donc développé le jeu Opération Vortex de manière éco responsable en optimisant le code et en utilisant
           la génération procédurale. C'est à dire que la map du jeu est générée aléatoirement et une seule fois au début de chaque partie.
           Il n'y a donc pas de sauvegarde de la map et cela permet de réduire la consommation de ressources. Nous avons aussi modélisé la
-          plupart des modèles 3D du jeu et nous avons opter pour le style "low poly". Low poly signifie que les modèles 3D sont peu détaillés
+          plupart des modèles 3D du jeu et nous avons opté pour le style "low poly". Low poly signifie que les modèles 3D sont peu détaillés
           et donc moins gourmands en ressources.
         </p>
       

@@ -12,7 +12,7 @@
         <h2 class="ta__center">Mes projets</h2>
         <br>
         <div class="card small-card-1">
-            <img src="images/OV.png" alt="Image de jeu">
+            <img src="images/TLL.png" alt="Image de jeu">
             <div class="card-title">Mes jeux</div>
           </a>
         </div>

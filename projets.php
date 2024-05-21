@@ -10,19 +10,19 @@
         <h3> Mes jeux </h3>
 
           <div class="card">
-            <a href="LostLetters.html">
+            <a href="LostLetters.php">
               <img src="images/TLL.png" alt="Image du jeu">
               <div class="card-title">The Lost Letters</div>
             </a>
           </div>
           <div class="card">
-            <a href="MuseeVirtuel.html">
+            <a href="MuseeVirtuel.php">
               <img src="images/MV.png" alt="Image du jeu">
               <div class="card-title">Musée Virtuel</div>
             </a>
           </div>
           <!-- <div class="card">
-            <a href="OperationVortex.html">
+            <a href="OperationVortex.php">
               <img src="images/OV.png" alt="Image du jeu">
               <div class="card-title">Opération Vortex</div>
             </a>
@@ -31,7 +31,7 @@
           <h3> Mes sites web</h3>
 
           <div class="card">
-            <a href="Remindr.html">
+            <a href="Remindr.php">
               <img src="images/RCc.png" alt="Image du site">
               <div class="card-title">Remindr</div>
             </a>
@@ -40,7 +40,7 @@
         <h3> Mes applications</h3>
 
         <div class="card">
-          <a href="AsciiArt.html">
+          <a href="AsciiArt.php">
             <img src="images/AA.png" alt="Image de l'application">
             <div class="card-title">ASCII Art</div>
           </a>

@@ -7,20 +7,24 @@
       <div class="grid_12">
         <h2>Ascii Art - Application de convertion d'images</h2>
 
-        <p> </p>
+        <img src="images/AA.png" alt="" class="img_inner fleft">
         
-        <h3>Ressources</h3>
+        <h3>L'ASCII Art c'est quoi ?</h3>
 
-        <p> </p>
+        <p> L’ASCII Art consiste à réaliser des images uniquement à l'aide des lettres et caractères spéciaux contenus dans le code ASCII.
+          Il nous a donc été demandé de réaliser une application permettant de convertir une image en ASCII Art.
+        </p>
         
         <h3>Développement</h3>
 
+        <p> Pour le développement de cette application j'ai utilisé différentes techologies : </p>
+        <ul>
+          <li>C++</li>
+          <li>Visual Studio</li>
+        </ul>
 
-
-        <img src="" alt="" class="img_inner fleft">
         <img src="" alt="" class="img_inner img_fright">
 
-          
       </div>
     </div>
   </div>

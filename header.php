@@ -24,7 +24,7 @@
                     <nav>
                         <ul class="sf-menu">
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/index.php') ? 'current' : ''; ?>"><a href="index.php">Accueil</a></li>
-                            <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/projets.php') ? 'current' : ''; ?>"><a href="projets.php">Projets</a></li>
+                            <li class="<?= ($_SERVER['SCRIPT_NAME'] != '/portfolio/index.php' && $_SERVER['SCRIPT_NAME'] != '/portfolio/numresp.php' && $_SERVER['SCRIPT_NAME'] != '/portfolio/apropos.php' && $_SERVER['SCRIPT_NAME'] != '/portfolio/contacts.php') ? 'current' : ''; ?>"><a href="projets.php">Projets</a></li>
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/numresp.php') ? 'current' : ''; ?>"><a href="numresp.php">Green IT</a></li>
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/apropos.php') ? 'current' : ''; ?>"><a href="apropos.php">À propos</a></li>
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/contacts.php') ? 'current' : ''; ?>"><a href="contacts.php">Contacts</a></li>

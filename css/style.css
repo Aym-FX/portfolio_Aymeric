@@ -533,6 +533,34 @@ header .header_top {
   margin-top: auto;
   background: url(../images/slider.jpg) center 0 no-repeat;
 }
+.nameP {
+  color: #fff;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.textP {
+  color: #bba;
+  margin-left : 20px;
+  font-size: 18px;
+}
+.logo {
+  color: #6da7e5;
+  margin-top: 30px;
+  margin-bottom: -80px;
+  font-size: 36px;
+}
+.logo a:hover {
+  color: #fff;
+}
+.text_Po {
+  font-size: 16px;
+  text-align: center;
+}
+.text_Pf {
+  font-size: 16px;
+  text-align: left;
+}
 /****Content****/
 #content {
   background-color: #ffffff;
@@ -999,6 +1027,7 @@ a.color1:hover {
     margin-bottom: 0px;
     font-size: 30px;
     line-height: 32px;
+    background-color: #000;
   }
   .map figure iframe {
     height: 300px;

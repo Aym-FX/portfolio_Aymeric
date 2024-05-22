@@ -4,8 +4,8 @@
         <div class="row">
             <div class="grid_12">
                 <br><br><br><br>
-                <h1><a href="#">Aymeric Sudre</a></h1>
-                Technicien Supérieur en Informatique
+                <h1 class="nameP">Aymeric Sudre</h1>
+                <div class="textP" >Technicien Supérieur en Informatique</div>
             </div>
         </div>
     </div>

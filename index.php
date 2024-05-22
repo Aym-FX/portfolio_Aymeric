@@ -76,7 +76,9 @@
     <div class="row">
       <div class="grid_">
         <h2 class="ta__center">À propos de moi</h2>
-        <p> Futur technicien supérieur en informatique. Je suis passionné par le développement et plus particulièrement de jeux vidéo.</p>
+        <p class="text_Po"> Futur technicien supérieur en informatique. Je suis passionné par le développement et plus particulièrement de jeux vidéo.
+          <br> Étudiant au Puy-en-Velay, je suis actuellement en deuxième année de BUT Informatique appliqué à l'image numérique.
+        </p>
       </div>
     </div>
   </div>

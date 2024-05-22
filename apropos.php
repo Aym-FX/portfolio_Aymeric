@@ -8,11 +8,13 @@
         <h2>À propos de moi</h2>        
         <div class="blog">
           <div class="text1 color1"><a href="#">Qui je suis ?</a></div>
-          <p>Je m'appelle Aymeric Sudre et j'ai 20 ans. Futur technicien supérieur en informatique, je suis actuellement en 2e année au BUT informatique 
-            appliquée à l'image numérique au Puy-en-Velay.</p>
+            <p class="text_Pf">Je m'appelle Aymeric Sudre et j'ai 20 ans. Futur technicien supérieur en informatique, je suis actuellement en 2e année au BUT informatique 
+            appliquée à l'image numérique au Puy-en-Velay.
+            <br>
+            <br>
             Durant cette formation j'ai pu acquérir entre autres des compétences en développement web, applications PC/mobiles et jeux vidéo.
             J'ai aussi eu l'occasion de faire de nombreux projets en groupe, ce qui m'a permis de développer mes compétences en travail d'équipe.
-            <br>
+            </p>
             <br>
             
             <div class="text1 color1"><a href="#">Mes compétences</a></div>

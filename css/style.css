@@ -22,10 +22,14 @@
 .deco_text {
   text-decoration: underline;
   font-weight: bold;
+  color: #6b5050;
+}
+.deco_text:hover {
+  color: #6da7e5;
 }
 .text_contact {
   font-size: 18px;
-  padding-bottom: 15px;
+  padding-bottom: 35px;
   margin-left: 20px;
 }
 .navigation nav {
@@ -126,6 +130,12 @@
   padding: 0 5px;
 }
 
+.card_h {
+  width: 550px;
+  height: 250px;
+  box-shadow: #000 0px 0px 10px;
+  border-radius: 20px;
+}
 .card {
   flex: 1 0 auto;
   position: relative;
@@ -139,7 +149,6 @@
   margin-left: 40px;
   margin-bottom: 30px;
 }
-
 .card img {
   width: 300px;
   height: 300px;
@@ -864,12 +873,25 @@ a.color1:hover {
 #footer {
   text-align: center;
   color: #ffffff;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 #footer h2 {
-  padding-top: 85px;
+  padding-top: 20px;
   margin-bottom: 23px;
-  color: #e3dfdf;
+  color: #6da7e5;
+}
+.lst_cpt {
+  margin-left: 50px;
+  list-style: square;
+}
+.subtitle_1 {
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  color: #18A01F;
 }
 #footer .footer_phone {
   font-size: 24px;

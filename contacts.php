@@ -9,10 +9,10 @@
                 <div class="grid_12">
                     <h2>Contacts</h2>
                     <a class="text_contact" href="mailto:aymeric.sudre.pro@gmail.com"> <span class="deco_text">Email :</span> aymeric.sudre.pro@gmail.com</a>
-                    <br>
+                    <br><br>
                     <a class="text_contact" href="https://www.linkedin.com/in/aymeric-sudre/" target="_blank"> <span class="deco_text">Linkedin :</span> aymeric-sudre</a>
-                    <br>
-                    <a class="text_contact" href="https://github.com/Aym-FX"> <span class="deco_text">GitHub :</span> Aym-FX</a>
+                    <br><br>
+                    <a class="text_contact" href="https://github.com/Aym-FX" target="_blank"> <span class="deco_text">GitHub :</span> Aym-FX</a>
                 </div>
             </div>
         </div>

@@ -136,6 +136,12 @@
   box-shadow: #000 0px 0px 10px;
   border-radius: 20px;
 }
+.card_h2 {
+  width: 475px;
+  height: 250px;
+  box-shadow: #000 0px 0px 10px;
+  border-radius: 20px;
+}
 .card {
   flex: 1 0 auto;
   position: relative;

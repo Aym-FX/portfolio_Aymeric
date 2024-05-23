@@ -7,28 +7,35 @@
       <div class="grid_12">
         <h2>Remindr - Application de gestion de rappels</h2>
         
-        <img src="images/RCc.png" alt="Page de connexion de Remindr" class="img_inner fleft">
+        <br><br>
 
-        <h3>Remindr qu'est-ce que c'est ?</h3>
-
-        <p> Remindr est une application de gestion de rappels, elle a pour but de permettre aux utilisateurs de créer des groupes avec
-          d'autres utilisateurs et de créer des rappels dans les groupes où ils sont. Ces rappels ont un titre, une description ainsi
-          qu'une date d'échéance. 
+        <img src="images/RCc.png" alt="Page de connexion de Remindr" class="img_inner fleft card">
+        
+        <h3 style="margin-top:-50px;">Remindr qu'est-ce que c'est ?</h3>
+        <br>
+        <p class="text_Pf"> &nbsp;&nbsp;&nbsp;&nbsp;Remindr est une application de gestion de rappels, elle a pour but de 
+          <br>permettre aux utilisateurs de créer des groupes avec d'autres utilisateurs 
+          <br>et de créer des rappels dans les groupes où ils sont. 
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Ces rappels ont un titre, une description ainsi qu'une date d'échéance. 
         </p>
         
-        <img src="images/R.png" alt="Accueil de Remindr avec un rappel" class="img_inner img_fright">
+        <br><br>
+        <br><br>
+
+        <img src="images/R.png" alt="Accueil de Remindr avec un rappel" class="img_inner img_fright card_h" style="margin-top:100px;">
         
         <h3>Techologies utilisés</h3>
-
-        <p> Pour développer cette application web j'ai utilisé les langages suivants : </p>
-        <ul>
+        <br>
+        <p class="text_Pf"> Pour développer cette application web j'ai utilisé les langages suivants : </p>
+        <ul class="lst_cpt">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>Handlebar</li>
         </ul>
-        <p> J'ai également utilisé les technologies suivantes :</p>
-        <ul>
+        <br><br>
+        <p class="text_Pf"> J'ai également utilisé les technologies suivantes :</p>
+        <ul class="lst_cpt">
           <li>Node.js : C'était le framework imposé pour ce projet.</li>
           <li>Express.js : Choisi comme framework pour le côté serveur de l'application en raison de sa simplicité et de sa flexibilité.</li>
           <li>Prisma : Facilite l'interaction avec la base de données MySQL.</li>

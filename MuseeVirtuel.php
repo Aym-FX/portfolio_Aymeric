@@ -13,16 +13,18 @@
         <p class="text_Pf"> &nbsp;&nbsp;&nbsp;&nbsp;Le musée interactif en réalité virtuelle a été réalisé sur Unreal Engine 5. 
           <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Il comporte plusieurs œuvres d'artistes différents que nous avons recréé en 3D pour la grande majorité, ainsi qu'un scénario où 
           le but est de partir à la recherche d'un croissant pour chaque œuvre afin de les remettre à leur place sur des piliers. 
-          <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Nous avons appris à utiliser les blueprints pour développer certaines fonctionnalités, comme la radio ou encore les nombreux boutons servant à présenter les œuvres grâce à des fichiers audio. De plus, 
-          nous avons appris le texturing et l'UV mapping afin d'appliquer différentes textures et de corriger d'éventuels défauts. 
-          <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Nous avons également exploité différents assets pour la génération procédurale des végétaux et du ciel, afin de lui donner du volume et de la 
-          dynamique.
+          <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nous avons appris à utiliser les blueprints pour développer certaines fonctionnalités, 
+          comme la radio ou encore les nombreux boutons servant à &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;présenter les œuvres grâce à des fichiers audio. De plus, 
+          nous avons appris le texturing et l'UV mapping afin d'appliquer différentes textures et de &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;corriger d'éventuels défauts. 
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nous avons également exploité différents assets pour la génération procédurale des végétaux et du ciel, afin de lui donner du volume et de la 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dynamique.
         </p>
         
-        <img src="images/MV2.jpeg" alt="Image du musée vue du dessus" class="img_inner img_fright card">
-
+        
         <h3>Technologies utilisés</h3>
-
+        
+        <img src="images/MV2.jpeg" alt="Image du musée vue du dessus" class="img_inner img_fright card_h">
+        <br>
         <p class="text_Pf"> Pour développer ce projet plusieurs technologies ont été utilisées : </p>
         <ul class="lst_cpt">
           <li>Unreal Engine 5</li>

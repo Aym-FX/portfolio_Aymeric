@@ -29,7 +29,7 @@
              <li class="current"><a href="index.html">Accueil</a></li>
              <li><a href="projets.html">Projets</a></li>
              <li><a href="numresp.html">Green IT</a></li>
-             <li><a href="cv.html">CV</a></li>
+             <li><a href="apropos.html">À propos</a></li>
              <li><a href="contacts.html">Contacts</a></li>
            </ul>
           </nav>

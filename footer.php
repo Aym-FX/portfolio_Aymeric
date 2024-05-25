@@ -1,4 +1,3 @@
-<?php include 'head.inc.php'; ?>
 <footer id="footer">
     <div class="container">
         <div class="grid_12">

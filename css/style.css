@@ -180,8 +180,8 @@
 }
 
 .small-card-1 {
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   margin-left: 132.5px;
 }
 .small-card-2 {
@@ -947,6 +947,102 @@ a.color1:hover {
   outline: none;
   border-color: #6da7e5;
   background-color: #6da7e5;
+}
+/* Styles pour le carrousel */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 15px; /* Bords arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel img {
+  width: 100%;
+  height: 400px; /* Fixer la hauteur des images */
+  object-fit: cover; /* Assurer que les images remplissent l'espace sans déformation */
+  display: block;
+  border-radius: 15px; /* Bords arrondis pour les images */
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none; /* Permet de cliquer à travers */
+}
+
+.carousel-controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  pointer-events: all; /* Permet de cliquer sur les boutons */
+}
+
+.carousel-controls button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-dots {
+  text-align: center;
+  padding: 10px;
+}
+
+.carousel-dots button {
+  background-color: #bbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  margin: 5px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.carousel-dots button.active {
+  background-color: #717171;
+}
+
+.card-image-container .image-container {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.card-image-container .image-container img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-left {
+  clip-path: inset(0 50% 0 0); /* Affiche la moitié gauche de l'image */
+}
+
+.image-right {
+  clip-path: inset(0 0 0 50%); /* Affiche la moitié droite de l'image */
+  object-fit: cover; /* Assure que l'image couvre tout l'espace disponible */
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {

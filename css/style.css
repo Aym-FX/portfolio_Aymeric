@@ -1,5 +1,5 @@
-@import '../css/grid.css';
-@import '../css/font-awesome.css';
+@import "../css/grid.css";
+@import "../css/font-awesome.css";
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300);
@@ -12,7 +12,7 @@
   position: relative;
   padding: 5px 0 0;
   float: right;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 .navigation .sf-menu {
   z-index: 990;
@@ -69,7 +69,7 @@
   margin-left: 36px;
 }
 .sf-menu > li + li:after {
-  content: '';
+  content: "";
   height: 5px;
   width: 5px;
   position: absolute;
@@ -83,11 +83,11 @@
 }
 
 .sf-menu > li > a::after {
-  display: none; 
+  display: none;
 }
 
 .sf-menu > li > a.sf-with-ul:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 5px;
   bottom: 15px;
@@ -114,7 +114,7 @@
   left: 0;
   background: #323045;
   padding: 0;
-  margin: 0 ;
+  margin: 0;
   white-space: nowrap;
 }
 
@@ -184,10 +184,24 @@
   height: 225px;
   margin-left: 132.5px;
 }
+
+.small-card-1-green {
+  width: 225px;
+  height: 225px;
+  margin-left: 132.5px;
+  background: #eee; /* juste pour voir le fond si besoin */
+  overflow: hidden;
+}
+
+.small-card-1-green img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .small-card-2 {
   width: 150px;
   height: 50px;
-  
 }
 .container {
   display: flex;
@@ -235,7 +249,7 @@
     float: none;
     outline: none;
     display: block !important;
-    border: 2px solid #fff ;
+    border: 2px solid #fff;
   }
 }
 #stuck_container {
@@ -288,19 +302,19 @@ body {
   position: relative;
   background: #323045;
   color: #585555;
-  font: 14px/20px 'Open Sans', sans-serif;
+  font: 14px/20px "Open Sans", sans-serif;
 }
 .ic {
-	border:0;
-	float:right;
-	background:#fff;
-	color:#f00;
-	width:50%;
-	line-height:10px;
-	font-size:10px;
-	margin:-220% 0 0 0;
-	overflow:hidden;
-	padding:0
+  border: 0;
+  float: right;
+  background: #fff;
+  color: #f00;
+  width: 50%;
+  line-height: 10px;
+  font-size: 10px;
+  margin: -220% 0 0 0;
+  overflow: hidden;
+  padding: 0;
 }
 strong {
   font-weight: 700;
@@ -334,7 +348,7 @@ h5,
 h6 {
   font-weight: 400;
   color: #171616;
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: "Pathway Gothic One", sans-serif;
 }
 h2 {
   font-size: 48px;
@@ -416,7 +430,7 @@ a:hover {
   color: #323045;
 }
 .btn {
-  font: 18px/20px 'Dosis', sans-serif;
+  font: 18px/20px "Dosis", sans-serif;
   color: #323045;
   border: 1px solid #000;
   display: inline-block;
@@ -556,7 +570,7 @@ header .header_top {
 }
 .textP {
   color: #bba;
-  margin-left : 20px;
+  margin-left: 20px;
   font-size: 18px;
 }
 .logo {
@@ -809,7 +823,7 @@ header .header_top {
   height: 1px;
   top: 0;
   background-color: #171616;
-  content: '';
+  content: "";
 }
 .sep-1.offset__1 {
   margin-top: 86px;
@@ -897,7 +911,7 @@ a.color1:hover {
   letter-spacing: -1px;
   margin-bottom: 15px;
   text-decoration: underline;
-  color: #18A01F;
+  color: #18a01f;
 }
 #footer .footer_phone {
   font-size: 24px;
@@ -1035,15 +1049,22 @@ a.color1:hover {
   height: 100%;
   object-fit: cover;
 }
-
+/*Afficher une moitié d'une image*/
 .image-left {
-  clip-path: inset(0 50% 0 0); /* Affiche la moitié gauche de l'image */
+  clip-path: inset(0 50% 0 0);
+}
+.image-right {
+  clip-path: inset(0 0 0 50%);
+  object-fit: cover;
+}
+.image-top {
+  clip-path: inset(50% 0 0 0);
+}
+.image-bottom {
+  clip-path: inset(0 0 50% 0);
+  object-fit: cover;
 }
 
-.image-right {
-  clip-path: inset(0 0 0 50%); /* Affiche la moitié droite de l'image */
-  object-fit: cover; /* Assure que l'image couvre tout l'espace disponible */
-}
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
   .extra_wrapper {

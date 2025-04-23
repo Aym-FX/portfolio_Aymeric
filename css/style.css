@@ -1063,7 +1063,84 @@ a.color1:hover {
   clip-path: inset(0 0 50% 0);
   object-fit: cover;
 }
-
+.cv-section {
+  margin-top: 20px;
+  padding: 25px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.cv-section:hover {
+  background-color: #eaf4ff;
+}
+.cv-section-download {
+  margin-top: 20px;
+  padding: 25px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.cv-section-download:hover {
+  transform: translateY(-5px);
+  background-color: #eaf4ff;
+}
+.cv-title {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 40px;
+  color: #6da7e5;
+  margin-bottom: 25px;
+  text-align: center;
+  position: relative;
+}
+.cv-title::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #6da7e5;
+  display: block;
+  margin: 10px auto 0 auto;
+  border-radius: 2px;
+}
+.cv-list,
+.cv-sublist {
+  list-style: none;
+  padding-left: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #000000;
+}
+.cv-list li {
+  padding-left: 30px;
+  margin-bottom: 12px;
+  position: relative;
+}
+.cv-list li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #6da7e5;
+  font-size: 24px;
+  line-height: 20px;
+}
+.cv-sublist li {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+p.cv-text {
+  text-align: center;
+  font-size: 20px;
+  color: #eee;
+  margin-bottom: 50px;
+}
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
   .extra_wrapper {

@@ -1,5 +1,3 @@
-## Modifier CV et page à propos pour mettre stage + .Net + SensNum + MongoDB/NoSql
-
 ## Ajouter dans les projets :
 
 - SensNum pour le JV
